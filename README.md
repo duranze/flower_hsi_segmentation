@@ -11,6 +11,7 @@ This dataset enables research in **hyperspectral image recovery**, **semantic se
 <p align="center">
 <img src="dataset-demo.jpg" alt="FHRS 数据示例" width="80%">
 </p>
+
 ### 🌟 Why FHRS?
 Hyperspectral images (HSIs) provide **continuous spectral information**, allowing differentiation between objects with similar textures but different spectral properties. However, HSIs are challenging to acquire due to high costs, long exposure times, and complex instrumentation.
 
