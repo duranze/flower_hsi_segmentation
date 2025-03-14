@@ -8,6 +8,8 @@
 - 🎨 High-quality fine-grained segmentation annotations
 
 This dataset enables research in **hyperspectral image recovery**, **semantic segmentation**, and their **mutual enhancement** by exploring the complementary relationship between spectral and semantic information.
+![FHRS 数据集示例](dataset-demo.png)
+![FHRS 分布统计](pie-simple.png)
 
 ### 🌟 Why FHRS?
 Hyperspectral images (HSIs) provide **continuous spectral information**, allowing differentiation between objects with similar textures but different spectral properties. However, HSIs are challenging to acquire due to high costs, long exposure times, and complex instrumentation.
