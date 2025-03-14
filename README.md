@@ -28,11 +28,11 @@ FHRS consists of:
 ### 📂 Dataset Structure
 ```plaintext
 FHRS/
-├── hyperspectral/   # Raw hyperspectral images
+├── hsi_train/ hsi_val/   # Raw hyperspectral images
 ├── rgb/            # Corresponding RGB images
-├── masks/          # Semantic segmentation annotations
-├── metadata/       # Acquisition details and spectral bands info
-└── README.md       # Dataset details
+├── gts/          # Semantic segmentation annotations
+
+└── code          # code for CSSF and other comparing methods
 ```
 
 ## 🚀 Applications
@@ -62,15 +62,16 @@ We evaluated our approach on FHRS and LIB-HSI datasets, demonstrating that:
 
 You can download the FHRS dataset from the following link:
 
-👉 **[Download FHRS Dataset](https://github.com/your-repo-link)**
+👉 **[Download FHRS Dataset](https://pan.baidu.com/s/1cbPuVo7ZDw_hTWoEFb-RWw?pwd=4knx)**
 
 ## 📜 Citation
 
-If you use FHRS in your research, please cite our work:
+If you use FHRS dataset in your research, please cite our work:
 
 ```bibtex
-@article{your_paper,
-  author    = {Your Name and Others},
-  title     = {Mutual Enhancement of Spectral Recovery and Semantic Segmentation: A Multi-Task Learning Approach},
-  journal   = {Your Conference/Journal},
-  year      = {
+@article{fhrs_hsi,
+  author    = {Zhuoran Du, Shikui Wei, Ting Liu, Shunli Zhang, Xiaotong Chen, Yao Zhao},
+  title     = {Exploring the applicability of spectral recovery in semantic segmentation of RGB images},
+  journal   = {TMM},
+  year      = {2022}
+}
