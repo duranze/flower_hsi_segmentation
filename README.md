@@ -31,7 +31,6 @@ FHRS/
 ├── hsi_train/ hsi_val/   # Raw hyperspectral images
 ├── rgb/            # Corresponding RGB images
 ├── gts/          # Semantic segmentation annotations
-
 └── code          # code for CSSF and other comparing methods
 ```
 
